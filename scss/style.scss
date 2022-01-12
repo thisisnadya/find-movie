@@ -1,0 +1,32 @@
+$main-color: #1A374D;
+$secondary-color: #406882;
+$tertiary-color: #6998AB;
+$forth-color: #B1D0E0;
+
+
+body {
+    background-color: $main-color;
+}
+
+
+
+.navbar {
+    background-color: $main-color;
+    color: white;
+    form {
+        .form-control {
+            border: 1px solid $forth-color;
+            background-color: $main-color;
+        }
+        .btn {
+            border: 1px solid $forth-color;
+            background-color: $tertiary-color;
+        }
+    }
+}
+
+.content {
+    .card {
+        background-color: $forth-color;
+    }
+}

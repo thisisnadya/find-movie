@@ -1,0 +1,23 @@
+body {
+  background-color: #1A374D;
+}
+
+.navbar {
+  background-color: #1A374D;
+  color: white;
+}
+
+.navbar form .form-control {
+  border: 1px solid #B1D0E0;
+  background-color: #1A374D;
+}
+
+.navbar form .btn {
+  border: 1px solid #B1D0E0;
+  background-color: #6998AB;
+}
+
+.content .card {
+  background-color: #B1D0E0;
+}
+/*# sourceMappingURL=style.css.map */
