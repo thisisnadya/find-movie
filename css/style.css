@@ -1,15 +1,15 @@
 body {
-  background-color: #1A374D;
+  background-color: #072227;
 }
 
 .navbar {
-  background-color: #1A374D;
+  background-color: #072227;
   color: white;
 }
 
 .navbar form .form-control {
   border: 1px solid #B1D0E0;
-  background-color: #1A374D;
+  background-color: #072227;
 }
 
 .navbar form .btn {
@@ -17,7 +17,24 @@ body {
   background-color: #6998AB;
 }
 
+.content {
+  margin-top: 100px;
+}
+
 .content .card {
-  background-color: #B1D0E0;
+  background-color: #072227;
+  border: 1px solid #B1D0E0;
+}
+
+.content .card img {
+  height: 350px;
+}
+
+.content .card .card-body {
+  height: 150px;
+}
+
+.content .card .card-body h5 {
+  color: #B1D0E0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-$main-color: #1A374D;
+$main-color: #072227;
 $secondary-color: #406882;
 $tertiary-color: #6998AB;
 $forth-color: #B1D0E0;
@@ -26,7 +26,18 @@ body {
 }
 
 .content {
+    margin-top: 100px;
     .card {
-        background-color: $forth-color;
+        background-color: $main-color;
+        border: 1px solid $forth-color;
+        img {
+            height: 350px;
+        }
+        .card-body {
+            height: 150px;
+            h5 {
+                color: $forth-color;
+            }
+        }
     }
 }
