@@ -24,10 +24,7 @@ body {
 .content .card {
   background-color: #072227;
   border: 1px solid #B1D0E0;
-}
-
-.content .card img {
-  height: 350px;
+  cursor: pointer;
 }
 
 .content .card .card-body {
@@ -36,5 +33,17 @@ body {
 
 .content .card .card-body h5 {
   color: #B1D0E0;
+}
+
+.content .card .modal .modal-dialog .modal-content .modal-body .movie-overview .overview {
+  font-size: 12px;
+}
+
+.content .card .show-details {
+  cursor: pointer;
+}
+
+.content .card .show-details:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
