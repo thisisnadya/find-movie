@@ -7,6 +7,7 @@ const SEARCH_URL = BASE_URL + '/search/movie?' + API_KEY;
 const movieContainer = document.querySelector('.movie-container');
 const form = document.querySelector('.form');
 const searchInput = document.getElementById('search');
+const header = document.querySelector('.header');
 
 
 getMovies(API_URL)
@@ -65,6 +66,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     let searchInputValue = searchInput.value;
     if(searchInputValue){
+        header.innerHTML = `Result for <strong>'${searchInputValue}'</strong>`;
         getMovies(SEARCH_URL+'&query='+searchInputValue);
     }
 });

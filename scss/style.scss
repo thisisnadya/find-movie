@@ -10,9 +10,6 @@ body {
     background-color: $main-color;
     font-family: 'Quicksand', sans-serif;
 }
-
-
-
 .navbar {
     background-color: $main-color;
     color: #EEEEEE;
@@ -29,7 +26,7 @@ body {
 
 .content {
     margin-top: 100px;
-    h1 {
+    .header {
         color: $tertiary-color;
     }
     .card {
