@@ -1,18 +1,21 @@
-$main-color: #072227;
-$secondary-color: #406882;
-$tertiary-color: #6998AB;
-$forth-color: #B1D0E0;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+$main-color: black;
+$secondary-color: #F1F1F1;
+$tertiary-color: #9D9D9D;
+$forth-color: #EEEBDD;
 
 
 body {
     background-color: $main-color;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
 
 .navbar {
     background-color: $main-color;
-    color: white;
+    color: #EEEEEE;
     form {
         .form-control {
             border: 1px solid $forth-color;
@@ -20,40 +23,58 @@ body {
         }
         .btn {
             border: 1px solid $forth-color;
-            background-color: $tertiary-color;
         }
     }
 }
 
 .content {
     margin-top: 100px;
+    h1 {
+        color: $tertiary-color;
+    }
     .card {
         background-color: $main-color;
-        border: 1px solid $forth-color;
         cursor: pointer;
         .card-body {
             height: 150px;
+            .card-title {
+                font-weight: 700;
+            }
+            .show-details {
+                cursor: pointer;
+                text-decoration: none;
+                color: white;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
             h5 {
-                color: $forth-color;
+                color: $secondary-color;
+            }
+            .bi-star-fill {
+                color: #FFCA03;
             }
         }
-        .modal {
-            .modal-dialog {
-                .modal-content {
-                    .modal-body {
-                        .movie-overview  {
-                            .overview {
-                                font-size: 12px;
-                            }
-                        }
+    }
+}
+.modal {
+    .modal-dialog {
+        .modal-content {
+            background-color: $forth-color;
+            .modal-body {
+                .list-group {
+                    .list-group-item {
+                        background-color: $forth-color !important;
+                        color: $main-color;
                     }
                 }
             }
         }
-        .show-details {
-            cursor: pointer;
+        .modal-close {
+            background-color: $main-color !important;
+            color: $forth-color;
             &:hover {
-                text-decoration: underline;
+                background-color: $tertiary-color !important;
             }
         }
     }
